@@ -1,0 +1,43 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  
+    color-scheme: light dark;
+  
+    --color-primary: #ed377e;
+    --color-secondary: #03b898;
+    --color-gray-1: #e9ecef;
+    --color-gray-2: #f8f9fa;
+    --color-gray-3: #343a40;
+  
+    --color-hover-primary: #e34981;
+    --color-hover-gray: rgb(220, 219, 219);
+  }
+  
+  .btnPink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 38px;
+    border-radius: 8px;
+    padding: 13px 20px 13px 20px;
+    max-width: 100%;
+    border: 2px solid var(--color-primary);
+    color: var(--color-gray-1);
+    background-color: var(--color-primary);
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 15px;
+
+  }
+  
+  .btnPink:hover {
+    background-color: var(--color-hover-primary);
+    border: 2px solid var(--color-hover-primary);
+  }
+  
+  
+  
+  
+  

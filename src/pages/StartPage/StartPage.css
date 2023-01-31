@@ -1,0 +1,135 @@
+.imgLogo {
+  width: 110px;
+  height: 20px;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.leftPagStart {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 15px;
+}
+.leftPagStart > h1 {
+  height: 120px;
+  width: 347px;
+  max-width: 100%;
+  font-size: 25px;
+  line-height: 40px;
+  color: var(--color-gray-1);
+}
+
+.leftPagStart > p {
+  font-size: 16px;
+  color: var(--color-gray-1);
+  margin-bottom: 28px;
+}
+
+.imgDiv > img {
+  margin-top: 40px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.valueTotalDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 358px;
+  max-width: 100%;
+  height: 96px;
+  border: 1px solid var(--color-gray-1);
+  font-size: 16px;
+  padding: 15px 10px;
+}
+
+.valueTotalDiv > h3 > span {
+  color: var(--color-primary);
+  margin-left: 40%;
+  font-size: 16px;
+}
+
+.valueTotalDiv > p {
+  font-size: 12px;
+}
+
+.summaryFinancial {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+  margin-top: 20px;
+  width: 355px;
+  max-width: 100%;
+  height: auto;
+}
+
+.noApplication {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid var(--color-gray-1);
+  height: 40px;
+}
+
+.btnInitial {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 200px;
+  left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 360px;
+  height: 38px;
+  border-radius: 8px;
+  padding: 13px 20px 13px 20px;
+  max-width: 100%;
+  border: 2px solid var(--color-primary);
+  color: var(--color-gray-1);
+  background-color: var(--color-primary);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnInitial:hover {
+  background-color: var(--color-hover-primary);
+  border: 2px solid var(--color-hover-primary);
+}
+
+@media (min-width: 768px) {
+  .imgDiv > img {
+    position: absolute;
+    width: 600px;
+    top: 10px;
+  }
+
+  .leftPagStart {
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    width: 500px;
+  }
+
+  .valueTotalDiv {
+    position: absolute;
+    left: 5%;
+    top: 430px;
+  }
+
+  .summaryFinancial {
+    position: absolute;
+    right: 20%;
+  }
+
+  .btnInitial {
+    left: 10%;
+  }
+}
