@@ -97,6 +97,7 @@
   flex-direction: column;
   width: 50%;
   max-width: 100%;
+  gap: 10px;
 }
 
 #priceValue {
@@ -242,4 +243,18 @@ li > button {
     max-width: 100%;
    
   }
+
+  .imgNone {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    overflow-y: auto;
+    height: 400px;
+    width: 1000px;
+    max-width: 100%;
+    z-index: -1;
+  }
+
+ 
 }
