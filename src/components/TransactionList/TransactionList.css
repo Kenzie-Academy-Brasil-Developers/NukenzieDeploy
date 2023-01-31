@@ -231,6 +231,7 @@ li > button {
     height: 400px;
     width: 1000px;
     max-width: 100%;
+    z-index: -1;
   }
 
   .financialSummary > nav {
