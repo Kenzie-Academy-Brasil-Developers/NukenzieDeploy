@@ -2,9 +2,9 @@ import React from "react";
 import TransactionList from "../../components/TransactionList";
 import { useState } from "react";
 import "./StartPage.css"
-
 import TransactionCreateForm from "../../components/TransactionCreateForm";
-import InitialPage from "../../components/InitialPage/InitialPage";
+import InitialPage from "../../components/Initial";
+import nuKenzieBlack from "/src/assets/NukenzieLogoBlack.png"
 
 export default function StartPage({ listTransactions, addTransactions, removeTransactions,totalValueTransactions,}) {
   const [startPageIn, setStartPageIn] = useState(false);
@@ -27,7 +27,7 @@ export default function StartPage({ listTransactions, addTransactions, removeTra
       
       <div className="financialSummary">
         <nav>
-        <img className="imgLogo" src="/src/assets/NuKenzieLogoBlack.png" alt="" />
+        <img className="imgLogo" src={nuKenzieBlack} alt="" />
         <button onClick={StartOff}>Inicio</button>
 
         </nav>

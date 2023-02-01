@@ -1,12 +1,13 @@
 import React from 'react'
-
+import nuKenzieLogo from "/src/assets/NukenzieLogo.png"
+import ilustration from "/src/assets/ilustrationPagIni.png"
 export default function InitialPage() {
   return(
                <div className="pagStart">
           <div className="leftPagStart">
             <img
               className="imgLogo"
-              src="src/assets/NukenzieLogo.png"
+              src={nuKenzieLogo}
               alt="Logo"
             />
             <h1>Centralize o controle das suas finanças</h1>
@@ -15,7 +16,7 @@ export default function InitialPage() {
             
           </div>
           <div className="imgDiv">
-            <img src="src/assets/ilustrationPagIni.png" alt="" />
+            <img src={ilustration} alt="" />
           </div>
         </div>
   
