@@ -15,7 +15,7 @@ export default function TransactionCard({ transaction, removeTransactions }) {
       </li>
     );
   }
-  else if(list.type === "Despesa"){
+  else if(transaction.type === "Despesa"){
     return (
       <li className="despesaCard">
         <h3>{transaction.description}</h3>
